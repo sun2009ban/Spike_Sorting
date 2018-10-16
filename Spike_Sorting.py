@@ -222,7 +222,7 @@ class spike_sorting(object):
 		return replaced_data, remain_data
 
 if __name__ == '__main__':
-	file_path = './data/MUAP/result_.npy'
+	file_path = './data/EMG/EMG1.npy'
 	raw_data = np.load(file_path)
 	raw_data = raw_data[0:32]
 	for i, raw_data_row in enumerate(raw_data):
