@@ -1,4 +1,14 @@
 # Spike_Sorting
-A simple spike sorting code based on the threshold
+# A simple code for spike sorting.
 
-The example code is in the Spike_Sorting.py！
+The spikes are detected based on a predefined threshold.
+The detected spikes are clustered according to their shape characteristics.
+
+## A demo of the gui 
+![demo]https://github.com/sun2009ban/Spike_Sorting/blob/version2.0/demo.png
+
+
+## Requests
+matplotlib
+tkinter
+
