@@ -15,5 +15,9 @@ numpy
 ## Usage
 python gui.py
 
+threshod: set the amplitude threhold for detecting spikes.  
+overlap (the name will be changed in the next version): the minimum distance between two spikes.    
+cluster: the number of clusters in clustering the spikes   
+
 ## ToDo
 Fixing the bugs!!!!!
